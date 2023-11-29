@@ -1,0 +1,46 @@
+object Form1: TForm1
+  Left = 326
+  Height = 333
+  Top = 287
+  Width = 319
+  Caption = 'Form1'
+  ClientHeight = 333
+  ClientWidth = 319
+  LCLVersion = '2.2.6.0'
+  object Edit1: TEdit
+    Left = 80
+    Height = 22
+    Top = 40
+    Width = 161
+    TabOrder = 0
+    Text = 'Digite seu CEP'
+  end
+  object Button1: TButton
+    Left = 88
+    Height = 20
+    Top = 8
+    Width = 149
+    Caption = 'Checagem Exemplo'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object Memo1: TMemo
+    Left = 16
+    Height = 208
+    Top = 120
+    Width = 296
+    Lines.Strings = (
+      ''
+    )
+    TabOrder = 2
+  end
+  object Button2: TButton
+    Left = 88
+    Height = 24
+    Top = 72
+    Width = 147
+    Caption = 'Pesquisar'
+    OnClick = Button2Click
+    TabOrder = 3
+  end
+end
